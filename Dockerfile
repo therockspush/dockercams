@@ -1,2 +1,2 @@
 FROM nginx
-COPY index.html /usr/share/nginx/html
+ADD https://raw.githubusercontent.com/therockspush/dockercams/main/index.html /usr/share/nginx/html
